@@ -1,0 +1,6 @@
+:: questions
+" <<print $name>>, very well, I shall call you that then." The man said with a nod as he gets a notebook from a nearby table and begins to write down the things you say.
+"So, <<print $name>>, do you know what you are? Medically speaking of course."
+ 
+ You think for a moment before saying,
+ "[[I am a man|man]]" "[[I am a woman|woman]]" "[[I am something else|else]]"

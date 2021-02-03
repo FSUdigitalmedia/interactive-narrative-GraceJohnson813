@@ -18,4 +18,4 @@ in a lab coat. He seems proud and happy as he [[speaks.|speak]]
 :: speak
 “It worked! I can’t believe it worked!” He seems to ignore you for a moment before he speaks to you directly.
 “What is your name?”
- 
+ <<textbox "$name" "" "questions" autofocus>>
