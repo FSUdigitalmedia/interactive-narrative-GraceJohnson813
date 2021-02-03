@@ -4,6 +4,8 @@
     "format": "SugarCube",
     "format-version": "2.33.4"
 }
+:: StoryTitle
+Monster
 
 :: Start
 Congratulations, you are alive!
