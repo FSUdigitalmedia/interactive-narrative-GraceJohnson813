@@ -1,0 +1,21 @@
+:: StoryData
+{
+    "ifid": "AB77888B-4E98-4875-A73E-8F3CE4365EB0",
+    "format": "SugarCube",
+    "format-version": "2.33.4"
+}
+
+:: Start
+Congratulations, you are alive!
+Well, alive and cold, given how you are in just a hospital gown at the moment.
+You look around the room you are in, but it is difficult because it is surprisingly dark.
+Or so you hope.[[After all, you could be blind.|blind]]
+ 
+:: blind
+As you contemplate this, a lantern is lit to your right and in the warm, flickering light, you see a man 
+in a lab coat. He seems proud and happy as he [[speaks.|speak]]
+ 
+:: speak
+“It worked! I can’t believe it worked!” He seems to ignore you for a moment before he speaks to you directly.
+“What is your name?”
+ 
