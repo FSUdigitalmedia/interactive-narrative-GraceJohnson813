@@ -1,3 +1,13 @@
 :: woman
 He nods appreciatively and writes it down before he contines on.
 "Very good. Now, who do you find attractive, [[men|guys]] or [[woman|ladies]] ?" Note-possible pic-based choice here
+[[I like men|guys]]  [[I like women|ladies]]
+
+:: guys 
+You lie and say you find men attractive. The scientist seems to know this and he scowls.
+"Do not lie to me. I created you and i can just as easily terminate you."
+You feel a flicker of fear and [[Tell the truth|ladies]]
+
+:: ladies
+You tell the truth and say you find women attractive. The scientist seems disappointed.
+He sighs,"I suppose it stands to reason that there would be a defect."
