@@ -1,3 +1,7 @@
 :: sub
 You choose to stay quiet. After all, the scientist likely knows best.
 He continues to speak,"I suppose I may be able to fix you. It will require another surgery. Obviously something is wrong with your brain."
+He begins to head to the door,"I shall speak with my associates. You are to say here."
+
+Well, Will you stay put?
+[[Yes|badend1]] [[Absolutely Not|run]]
