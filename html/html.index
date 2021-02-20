@@ -122,50 +122,44 @@ You feel a flicker of fear and [[Tell the truth|guys1]]</tw-passagedata><tw-pass
 &quot;So, &lt;&lt;print $name&gt;&gt;, do you know what you are? Medically speaking of course.&quot;
  
  You think for a moment before saying,
- &quot;[[I am a man|man]]&quot; &quot;[[I am a woman|woman]]&quot; &quot;[[I am something else|else]]&quot;
-
- :: else
- &quot;Else? Dont&#39;t be foolish. You are either a man or a woman.&quot; The man responds back to you sternly, almost as if he is correcting a child. And yet it was harsh enough to make your heart ache.
+ &quot;[[I am a man|man]]&quot; &quot;[[I am a woman|woman]]&quot; &quot;[[I am something else|else]]&quot;</tw-passagedata><tw-passagedata pid="10" name="else" tags="" position="1225,100" size="100,100">&quot;Else? Dont&#39;t be foolish. You are either a man or a woman.&quot; The man responds back to you sternly, almost as if he is correcting a child. And yet it was harsh enough to make your heart ache.
  Will you comply with that and choose?
- [[No|rebel]] [[Yes|comply]]
-
- :: comply
- &quot;I am sorry.&quot;You say before making your choice.
- &quot;[[I guess I am a man|man]]&quot; &quot;[[I guess I am a woman|woman]]&quot;</tw-passagedata><tw-passagedata pid="10" name="rebel" tags="" position="1225,100" size="100,100">You stick to your guns and do not choose man or woman. The scientist glares at you.
+ [[No|rebel]] [[Yes|comply]]</tw-passagedata><tw-passagedata pid="11" name="comply" tags="" position="100,225" size="100,100">&quot;I am sorry.&quot;You say before making your choice.
+ &quot;[[I guess I am a man|man]]&quot; &quot;[[I guess I am a woman|woman]]&quot;</tw-passagedata><tw-passagedata pid="12" name="rebel" tags="" position="225,225" size="100,100">You stick to your guns and do not choose man or woman. The scientist glares at you.
 &quot;It seems as though you are defective. I did try my best. I will have to terminate you now.&quot;
 
 Well, that isn&#39;t good news. What will you do? You only have 7 seonconds to decide.
 &lt;&lt;if time() gt 7000&gt;&gt; &lt;&lt;goto &quot;attack&quot;&gt;&gt;
 &lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;run1&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
-[[Grab the nearby scapel and attack|attack]] or [[Shove past the doctor and run|run1]]</tw-passagedata><tw-passagedata pid="11" name="rude" tags="" position="100,225" size="100,100">You choose to speak up and tell the scientist that there was no need to be so rude.
+[[Grab the nearby scapel and attack|attack]] or [[Shove past the doctor and run|run1]]</tw-passagedata><tw-passagedata pid="13" name="rude" tags="" position="350,225" size="100,100">You choose to speak up and tell the scientist that there was no need to be so rude.
 He only scoffs,&quot;You have a lot of nerve. If you cause trouble, I will terminate you as a failed experiment.&quot;
 He begins to head to the door as he continues,&quot;I shall speak with my associates. You are to say here.&quot;
 
 Well, Will you stay put?
-[[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="12" name="run" tags="" position="225,225" size="100,100">You decide that you dislike the scientist. Therefore, you will not listen to him.
+[[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="14" name="run" tags="" position="475,225" size="100,100">You decide that you dislike the scientist. Therefore, you will not listen to him.
 You get up and begin to walk. There is a scapel on one of the tables.
 Will you take it?
-[[Yes, as a just in case|armed]]  [[No, I don&#39;t see a need for it|unarmed]]</tw-passagedata><tw-passagedata pid="13" name="armed" tags="" position="350,225" size="100,100">You grab the scapel as a just in case and begin to run. 
+[[Yes, as a just in case|armed]]  [[No, I don&#39;t see a need for it|unarmed]]</tw-passagedata><tw-passagedata pid="15" name="armed" tags="" position="600,225" size="100,100">You grab the scapel as a just in case and begin to run. 
 You exit the lab and enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
-There is no one else around, strangely.</tw-passagedata><tw-passagedata pid="14" name="unarmed" tags="" position="475,225" size="100,100">You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
+There is no one else around, strangely.</tw-passagedata><tw-passagedata pid="16" name="unarmed" tags="" position="725,225" size="100,100">You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
 You enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
-There is no one else around, strangely.</tw-passagedata><tw-passagedata pid="15" name="run1" tags="" position="600,225" size="100,100">There is only a small beat of hesitation before you suddenly spring up and begin to run. The scientist hadn&#39;t expected this and you successfully knock him over.
+There is no one else around, strangely.</tw-passagedata><tw-passagedata pid="17" name="run1" tags="" position="850,225" size="100,100">There is only a small beat of hesitation before you suddenly spring up and begin to run. The scientist hadn&#39;t expected this and you successfully knock him over.
 You exit the lab and enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. There is no one else around, strangely.
 You are taking the first right turn when you hear the lab door open behind you and the scientist begins to chase after you.
-He can&#39;t catch up to you and soon you are bursting through the front doors of the building and entering the [[woods]]</tw-passagedata><tw-passagedata pid="16" name="sub" tags="" position="725,225" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
+He can&#39;t catch up to you and soon you are bursting through the front doors of the building and entering the [[woods]]</tw-passagedata><tw-passagedata pid="18" name="sub" tags="" position="975,225" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
 He continues to speak,&quot;I suppose I may be able to fix you. It will require another surgery. Obviously something is wrong with your brain.&quot;
 He begins to head to the door,&quot;I shall speak with my associates. You are to say here.&quot;
 
 Well, Will you stay put?
-[[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="17" name="woman" tags="" position="850,225" size="100,100">He nods appreciatively and writes it down before he contines on.
+[[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="19" name="woman" tags="" position="1100,225" size="100,100">He nods appreciatively and writes it down before he contines on.
 &quot;Very good. Now, who do you find attractive, [[men|guys]] or [[woman|ladies]] ?&quot; Note-possible pic-based choice here
-[[I like men|guys]]  [[I like women|ladies]]</tw-passagedata><tw-passagedata pid="18" name="guys" tags="" position="975,225" size="100,100">You lie and say you find men attractive. The scientist seems to know this and he scowls.
+[[I like men|guys]]  [[I like women|ladies]]</tw-passagedata><tw-passagedata pid="20" name="guys" tags="" position="1225,225" size="100,100">You lie and say you find men attractive. The scientist seems to know this and he scowls.
 &quot;Do not lie to me. I created you and i can just as easily terminate you.&quot;
-You feel a flicker of fear and [[Tell the truth|ladies]]</tw-passagedata><tw-passagedata pid="19" name="ladies" tags="" position="1100,225" size="100,100">You tell the truth and say you find women attractive. The scientist seems disappointed.
+You feel a flicker of fear and [[Tell the truth|ladies]]</tw-passagedata><tw-passagedata pid="21" name="ladies" tags="" position="100,350" size="100,100">You tell the truth and say you find women attractive. The scientist seems disappointed.
 He sighs,&quot;I suppose it stands to reason that there would be a defect.&quot;
 
 Do you take offense to this?
-[[Yes|rude]] [[No|sub]]</tw-passagedata><tw-passagedata pid="20" name="woods" tags="" position="1225,225" size="100,100">You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
+[[Yes|rude]] [[No|sub]]</tw-passagedata><tw-passagedata pid="22" name="woods" tags="" position="225,350" size="100,100">You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
 &lt;&lt;cacheaudio &quot;rain&quot; &quot;191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3&quot;&gt;&gt;
 &lt;&lt;audio &quot;rain&quot; loop play&gt;&gt;
  You keep running through the woods despite the rain.</tw-passagedata></tw-storydata>
