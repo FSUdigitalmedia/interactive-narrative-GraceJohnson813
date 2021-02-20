@@ -1,3 +1,4 @@
 :: woods
 You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
-<<cacheaudio "rain" "medi">>
+<<cacheaudio "rain" "191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3">>
+<<audio "rain" loop play>>
