@@ -1,8 +1,0 @@
-:: rebel
-You stick to your guns and do not choose man or woman. The scientist glares at you.
-"It seems as though you are defective. I did try my best. I will have to terminate you now."
-
-Well, that isn't good news. What will you do? You only have 7 seonconds to decide.
-<<if time() gt 7000>> <<goto "attack">>
-<<else>> <<goto "run1">> <</if>>
-[[Grab the nearby scapel and attack|attack]] or [[Shove past the doctor and run|run1]]
