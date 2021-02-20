@@ -6,4 +6,6 @@ He begins to drag you back to the lab as he continues,"You would be better off t
 That doesn't sound good! Quick, You have 6 seconds to get away!
 <<if time() gt 6000>> <<goto "escape">>
 <<else>> <<goto "badend3">> <</if>>
+
 :: escape
+You successfully squirm out of the scientist's hold and run for the door you can see. You burst out of the building and into the [[woods1]]!

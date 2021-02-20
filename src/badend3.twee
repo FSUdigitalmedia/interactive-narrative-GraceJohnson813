@@ -1,0 +1,6 @@
+:: badend3
+You are unable to get free no matter how hard you try to get away.
+You are dragged back to the lab and strapped to the table. 
+As the scientist puts you under anestesia, he talks to you with disappointment clear in his voice.
+"I had such high hopes for you <<print $name>>. Oh well, I can fix you and you'll come back the right way."
+[[Try again?|unarmed1]]

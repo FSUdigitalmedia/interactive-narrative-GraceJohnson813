@@ -2,4 +2,6 @@
 You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
 <<cacheaudio "rain" "191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3">>
 <<audio "rain" loop play>>
- You keep running through the woods despite the rain.
+ You keep running through the woods despite the rain. No one calls for you to stop and you feel adrenaline pump through your system.
+ When dawn breaks, you find yourself on a beach with a quiet, abandoned cabin.
+ [[This will be your home|GoodEnd]]
