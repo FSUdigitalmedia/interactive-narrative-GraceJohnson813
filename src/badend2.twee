@@ -3,4 +3,4 @@ You are unable to bring yourself to stab the scientist. He created you. Maybe it
 You drop the scapel and let him lead you back into the lab.
 Before he puts you under anestesia in order to terminate you, he sighs and speaks to you one more time.
 "I wish this could have been different <<print $name>>. But don't worry. I'll fix your defect."
-[[Try again?|armed]]
+[[Try again?|armed1]]
