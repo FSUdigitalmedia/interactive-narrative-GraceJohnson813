@@ -1,6 +1,6 @@
 :: woods1
 You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
-<<cacheaudio "rain" "../assets/191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3">>
+<<cacheaudio "rain" "../assets/191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3" "191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3">>
 <<audio "rain" volume 0.50 loop play>>
  You keep running through the woods despite the rain and gradually, the shouts from the scientist grow fainter and fainter.
  As dawn approaches, you find a seculded and abandoned cabin by the sea. 
