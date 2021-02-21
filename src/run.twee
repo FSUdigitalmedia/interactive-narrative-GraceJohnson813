@@ -7,9 +7,9 @@ Will you take it?
 :: armed 
 You grab the scapel as a just in case and begin to run. 
 You exit the lab and enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
-There is no one else around, [[strangely.|armed1]]
+There is no one else around, [[strangely.|stab]]
 
 :: unarmed
 You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
 You enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
-There is no one else around, [[strangely.|unarmed1]]
+There is no one else around, [[strangely.|punch]]
