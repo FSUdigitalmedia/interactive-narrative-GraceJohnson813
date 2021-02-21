@@ -1,3 +1,4 @@
 :: GoodEnd
+<<audio "rain" stop>>
 You live out the rest of your days in peace and quiet. And eventually, you come to realize you were never the monster.
 <<timed 3000ms>><<type 30ms>>Congradulations, you are //human.//<</type>><</timed>>
