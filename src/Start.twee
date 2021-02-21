@@ -5,7 +5,8 @@
     "format-version": "2.33.4"
 }
 :: StoryInit
-<<cacheaudio "rain" "../assets/Rain.mp3">>
+<<cacheaudio "rain" "../assets/Rain.mp3" "../assets/Rain(1).wav">>
+<<cacheaudio "rain" "../assets/">>
 :: StoryTitle
 Monster
 
