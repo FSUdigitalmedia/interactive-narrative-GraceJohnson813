@@ -115,11 +115,11 @@ It fails and you are soon discarded and written only as a footnote in the scient
 You drop the scapel and let him lead you back into the lab.
 Before he puts you under anestesia in order to terminate you, he sighs and speaks to you one more time.
 &quot;I wish this could have been different &lt;&lt;print $name&gt;&gt;. But don&#39;t worry. I&#39;ll fix your defect.&quot;
-[[Try again?|armed1]]</tw-passagedata><tw-passagedata pid="8" name="badend3" tags="" position="975,100" size="100,100">You are unable to get free no matter how hard you try to get away.
+[[Try again?|stab]]</tw-passagedata><tw-passagedata pid="8" name="badend3" tags="" position="975,100" size="100,100">You are unable to get free no matter how hard you try to get away.
 You are dragged back to the lab and strapped to the table. 
 As the scientist puts you under anestesia, he talks to you with disappointment clear in his voice.
 &quot;I had such high hopes for you &lt;&lt;print $name&gt;&gt;. Oh well, I can fix you and you&#39;ll come back the right way.&quot;
-[[Try again?|unarmed1]]</tw-passagedata><tw-passagedata pid="9" name="badend4" tags="" position="1100,100" size="100,100">You live for a few years in your seaside cabin. It&#39;s a peaceful life.
+[[Try again?|punch]]</tw-passagedata><tw-passagedata pid="9" name="badend4" tags="" position="1100,100" size="100,100">You live for a few years in your seaside cabin. It&#39;s a peaceful life.
 But one day, there is a knock on your door.
 You open it and find the scientist before you. Before you can react, you are shot.
 Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words
@@ -152,16 +152,13 @@ There is no one else around, [[strangely.|punch]]</tw-passagedata><tw-passagedat
 He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
-Quick! You have 10 seconds to use that scapel!
-&lt;&lt;if time() gt 10000&gt;&gt; &lt;&lt;goto &quot;attack&quot;&gt;&gt;
-&lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;badend2&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
-[[Stab Him!|attack]]</tw-passagedata><tw-passagedata pid="19" name="punch" tags="" position="1100,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
+Quick! Use that scapel!
+[[Stab Him!|attack]]  [[I can&#39;t kill him!|badend2]]</tw-passagedata><tw-passagedata pid="19" name="punch" tags="" position="1100,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
 He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
-That doesn&#39;t sound good! Quick, You have 10 seconds to get away!
-&lt;&lt;if time() gt 10000&gt;&gt; &lt;&lt;goto &quot;escape&quot;&gt;&gt;
-&lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;badend3&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="escape" tags="" position="1225,225" size="100,100">You successfully squirm out of the scientist&#39;s hold and run for the door you can see. You burst out of the building and into the [[woods1]]!</tw-passagedata><tw-passagedata pid="21" name="sub" tags="" position="100,350" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
+That doesn&#39;t sound good! Quick, You have to get away!
+[[Maybe I can reason with him!|badend3]]  [[You don&#39;t have to tell me twice|escape]]</tw-passagedata><tw-passagedata pid="20" name="escape" tags="" position="1225,225" size="100,100">You successfully squirm out of the scientist&#39;s hold and run for the door you can see. You burst out of the building and into the [[woods1]]!</tw-passagedata><tw-passagedata pid="21" name="sub" tags="" position="100,350" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
 He continues to speak,&quot;I suppose I may be able to fix you. It will require another surgery. Obviously something is wrong with your brain.&quot;
 He begins to head to the door,&quot;I shall speak with my associates. You are to say here.&quot;
 
