@@ -132,36 +132,36 @@ He sighs,&quot;I suppose it stands to reason that there would be a defect.&quot;
 Do you take offense to this?
 [[Yes|rude]] [[No|sub]]</tw-passagedata><tw-passagedata pid="12" name="ladies1" tags="" position="225,225" size="100,100">You lie and say you find women attractive. The scientist seems to know this and he scowls.
 &quot;Do not lie to me. I created you and i can just as easily terminate you.&quot;
-You feel a flicker of fear and [[Tell the truth|guys1]]</tw-passagedata><tw-passagedata pid="13" name="punch" tags="" position="350,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
-He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
-He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
-
-That doesn&#39;t sound good! Quick, You have 10 seconds to get away!
-&lt;&lt;if time() gt 10000&gt;&gt; &lt;&lt;goto &quot;escape&quot;&gt;&gt;
-&lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;badend3&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="escape" tags="" position="475,225" size="100,100">You successfully squirm out of the scientist&#39;s hold and run for the door you can see. You burst out of the building and into the [[woods1]]!</tw-passagedata><tw-passagedata pid="15" name="questions" tags="" position="600,225" size="100,100">&quot; &lt;&lt;print $name&gt;&gt;, very well, I shall call you that then.&quot; The man said with a nod as he gets a notebook from a nearby table and begins to write down the things you say.
+You feel a flicker of fear and [[Tell the truth|guys1]]</tw-passagedata><tw-passagedata pid="13" name="questions" tags="" position="350,225" size="100,100">&quot; &lt;&lt;print $name&gt;&gt;, very well, I shall call you that then.&quot; The man said with a nod as he gets a notebook from a nearby table and begins to write down the things you say.
 &quot;So, &lt;&lt;print $name&gt;&gt;, do you know what you are? Medically speaking of course.&quot;
  
  You think for a moment before saying,
- &quot;[[I am a man|man]]&quot; &quot;[[I am a woman|woman]]&quot;</tw-passagedata><tw-passagedata pid="16" name="rude" tags="" position="725,225" size="100,100">You choose to speak up and tell the scientist that there was no need to be so rude.
+ &quot;[[I am a man|man]]&quot; &quot;[[I am a woman|woman]]&quot;</tw-passagedata><tw-passagedata pid="14" name="rude" tags="" position="475,225" size="100,100">You choose to speak up and tell the scientist that there was no need to be so rude.
 He only scoffs,&quot;You have a lot of nerve. If you cause trouble, I will terminate you as a failed experiment.&quot;
 He begins to head to the door as he continues,&quot;I shall speak with my associates. You are to say here.&quot;
 
 Well, Will you stay put?
-[[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="17" name="run" tags="" position="850,225" size="100,100">You decide that you dislike the scientist. Therefore, you will not listen to him.
+[[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="15" name="run" tags="" position="600,225" size="100,100">You decide that you dislike the scientist. Therefore, you will not listen to him.
 You get up and begin to walk. There is a scapel on one of the tables.
 Will you take it?
-[[Yes, as a just in case|armed]]  [[No, I don&#39;t see a need for it|unarmed]]</tw-passagedata><tw-passagedata pid="18" name="armed" tags="" position="975,225" size="100,100">You grab the scapel as a just in case and begin to run. 
+[[Yes, as a just in case|armed]]  [[No, I don&#39;t see a need for it|unarmed]]</tw-passagedata><tw-passagedata pid="16" name="armed" tags="" position="725,225" size="100,100">You grab the scapel as a just in case and begin to run. 
 You exit the lab and enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
-There is no one else around, [[strangely.|stab]]</tw-passagedata><tw-passagedata pid="19" name="unarmed" tags="" position="1100,225" size="100,100">You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
+There is no one else around, [[strangely.|stab]]</tw-passagedata><tw-passagedata pid="17" name="unarmed" tags="" position="850,225" size="100,100">You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
 You enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
-There is no one else around, [[strangely.|punch]]</tw-passagedata><tw-passagedata pid="20" name="stab" tags="" position="1225,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
+There is no one else around, [[strangely.|punch]]</tw-passagedata><tw-passagedata pid="18" name="stab" tags="" position="975,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
 He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
 Quick! You have 10 seconds to use that scapel!
 &lt;&lt;if time() gt 10000&gt;&gt; &lt;&lt;goto &quot;attack&quot;&gt;&gt;
 &lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;badend2&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
-[[Stab Him!|attack]]</tw-passagedata><tw-passagedata pid="21" name="sub" tags="" position="100,350" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
+[[Stab Him!|attack]]</tw-passagedata><tw-passagedata pid="19" name="punch" tags="" position="1100,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
+He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
+He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
+
+That doesn&#39;t sound good! Quick, You have 10 seconds to get away!
+&lt;&lt;if time() gt 10000&gt;&gt; &lt;&lt;goto &quot;escape&quot;&gt;&gt;
+&lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;badend3&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="escape" tags="" position="1225,225" size="100,100">You successfully squirm out of the scientist&#39;s hold and run for the door you can see. You burst out of the building and into the [[woods1]]!</tw-passagedata><tw-passagedata pid="21" name="sub" tags="" position="100,350" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
 He continues to speak,&quot;I suppose I may be able to fix you. It will require another surgery. Obviously something is wrong with your brain.&quot;
 He begins to head to the door,&quot;I shall speak with my associates. You are to say here.&quot;
 
