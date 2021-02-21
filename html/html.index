@@ -153,9 +153,7 @@ He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful mo
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
 Quick! Use that scapel!
-&lt;&lt;if time() gt 7000&gt;&gt; &lt;&lt;goto &quot;attack&quot;&gt;&gt;
-&lt;&lt;else&gt;&gt; &lt;&lt;goto &quot;badend2&quot;&gt;&gt; &lt;&lt;/if&gt;&gt;
-[[Stab Him!|attack]]</tw-passagedata><tw-passagedata pid="19" name="punch" tags="" position="1100,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
+[[Stab Him!|attack]]   [[I can&#39;t kill him!|badend2]]</tw-passagedata><tw-passagedata pid="19" name="punch" tags="" position="1100,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
 He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
