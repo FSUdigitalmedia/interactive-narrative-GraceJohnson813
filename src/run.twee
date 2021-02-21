@@ -20,9 +20,7 @@ He glares angerily and grabs your arm in a brusing hold. "You ungrateful monster
 He begins to drag you back to the lab as he continues,"You would be better off terminated and that's exactly what I am going to do!"
 
 Quick! Use that scapel!
-<<if time() gt 7000>> <<goto "attack">>
-<<else>> <<goto "badend2">> <</if>>
-[[Stab Him!|attack]]  
+[[Stab Him!|attack]]   [[I can't kill him!|badend2]]
 
 :: punch
 You race through the hallway and round a corner, only to run right into the scientist. 
