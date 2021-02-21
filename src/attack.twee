@@ -1,8 +1,9 @@
 :: attack
 You grab the scapel and spring into action. 
-The scientist does put up a good fight but you bury the scapel deep into his neck.
+The scientist does put up a good fight
+<<timed 3000ms transition>> but you bury the scapel deep into his neck.<<audio "stab" play>>
 
-<<timed 3000ms transition>> Blood stains your hands and he gruggles before slumping to the ground.
+<<next 3000ms>> Blood stains your hands and he gruggles before slumping to the ground.
 <<next 2000ms>>He is dead.
  <<next 1000ms>>What will you do now?
  <<next 1000ms>>[[I'll leave.|woods]]<</timed>>

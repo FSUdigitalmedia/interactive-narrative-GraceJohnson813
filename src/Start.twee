@@ -6,9 +6,9 @@
 }
 :: StoryInit
 <<cacheaudio "rain" "../assets/Rain.mp3" "../assets/Rain(1).wav">>
-<<cacheaudio "Gun" "../assets/Gun.wav" "../assets/">>
+<<cacheaudio "Gun" "../assets/Gun.wav" "../assets/Gun(1).mp3">>
 <<cacheaudio "waves" "../assets/Waves.wav" "../assets/Waves(1).mp3">>
-<<cacheaudio "stab" "../assets/Stab.wav" "../assets/">>
+<<cacheaudio "stab" "../assets/Stab.wav" "../assets/Stab(1).mp3">>
 :: StoryTitle
 Monster
 
