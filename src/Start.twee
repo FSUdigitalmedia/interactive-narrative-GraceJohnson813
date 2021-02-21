@@ -9,6 +9,7 @@
 <<cacheaudio "Gun" "../assets/Gun.wav" "../assets/Gun(1).mp3">>
 <<cacheaudio "waves" "../assets/Waves.wav" "../assets/Waves(1).mp3">>
 <<cacheaudio "stab" "../assets/Stab.wav" "../assets/Stab(1).mp3">>
+<<cacheaudio "dead" "../assets/Flatline.wav" "../assets/Flatline(1).mp3">>
 :: StoryTitle
 Monster
 

@@ -2,5 +2,5 @@
 You are unable to bring yourself to stab the scientist. He created you. Maybe it is better to listen to him.
 You drop the scapel and let him lead you back into the lab.
 Before he puts you under anestesia in order to terminate you, he sighs and speaks to you one more time.
-<<timed 3000ms transition>> "I wish this could have been different <<print $name>>. But don't worry. I'll fix your defect."
+<<timed 3000ms transition>> "I wish this could have been different <<print $name>>. But don't worry. I'll fix your defect."<<audio "dead" volume 0.40 fadeout>>
 <<next 2000ms>>[[Try again?|stab]]<</timed>>

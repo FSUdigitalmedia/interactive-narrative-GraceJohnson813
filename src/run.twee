@@ -1,5 +1,5 @@
 :: run
-<<audio "waves" stop>>
+<<audio "waves" stop>> <<audio "dead" stop>>
 You decide that you dislike the scientist. Therefore, you will not listen to him.
 You get up and begin to walk. There is a scapel on one of the tables.
 Will you take it?
@@ -16,6 +16,7 @@ You enter a hallway where the lights feel a bit too bright. Even though you are 
 There is no one else around, [[strangely.|punch]]
 
 :: stab
+<<audio "dead" stop>>
 You race through the hallway and round a corner, only to run right into the scientist. 
 He glares angerily and grabs your arm in a brusing hold. "You ungrateful //monster!// I told you to stay in the lab!"
 He begins to drag you back to the lab as he continues,"You would be better off terminated and that's exactly what I am going to do!"
@@ -24,6 +25,7 @@ Quick! Use that scapel!
 [[Stab Him!|attack]]   [[I can't kill him!|badend2]]
 
 :: punch
+<<audio "dead" stop>>
 You race through the hallway and round a corner, only to run right into the scientist. 
 He glares angerily and grabs your arm in a brusing hold. "You ungrateful //monster!// I told you to stay in the lab!"
 He begins to drag you back to the lab as he continues,"You would be better off terminated and that's exactly what I am going to do!"

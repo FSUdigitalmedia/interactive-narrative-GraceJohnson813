@@ -2,5 +2,5 @@
 You are unable to get free no matter how hard you try to get away.
 <<timed 3000ms transition>> You are dragged back to the lab and strapped to the table. 
 <<next 3000ms>>As the scientist puts you under anestesia, he talks to you with disappointment clear in his voice.
-<<next 2000ms>>"I had such high hopes for you <<print $name>>. Oh well, I can fix you and you'll come back the //right way.//"
+<<next 2000ms>>"I had such high hopes for you <<print $name>>. Oh well, I can fix you and you'll come back the //right way.//"<<audio "dead" volume 0.40 fadeout>>
 <<next 1000ms>>[[Try again?|punch]] <</timed>>
