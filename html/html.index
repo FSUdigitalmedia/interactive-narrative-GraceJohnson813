@@ -99,7 +99,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<!-- UUID://AB77888B-4E98-4875-A73E-8F3CE4365EB0// --><tw-storydata name="Monster" startnode="2" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="AB77888B-4E98-4875-A73E-8F3CE4365EB0" zoom="1" format="SugarCube" format-version="2.33.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {font-family: 'Courier New', Courier, monospace; color: black;background-color: blanchedalmond;}
-button {cursor: pointer;color:darkcyan}
+button {cursor: pointer;color:rgb(4, 102, 102)}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="GoodEnd" tags="" position="100,100" size="100,100">You live out the rest of your days in peace and quiet. And eventually, you come to realize you were never the monster.
 &lt;&lt;timed 3000ms&gt;&gt;Congradulations, you are //human.//&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">Congratulations, you are alive!
 Well, alive and cold, given how you are in just a hospital gown at the moment.
@@ -180,7 +180,7 @@ Do you take offense to this?
  You keep running through the woods despite the rain. No one calls for you to stop and you feel adrenaline pump through your system.
  When dawn breaks, you find yourself on a beach with a quiet, abandoned cabin.
  [[This will be your home|GoodEnd]]</tw-passagedata><tw-passagedata pid="26" name="woods1" tags="" position="725,350" size="100,100">You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
-&lt;&lt;cacheaudio &quot;rain&quot; &quot;191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;rain&quot; &quot;assets/191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3&quot;&gt;&gt;
 &lt;&lt;audio &quot;rain&quot; volume 0.50 loop play&gt;&gt;
  You keep running through the woods despite the rain and gradually, the shouts from the scientist grow fainter and fainter.
  As dawn approaches, you find a seculded and abandoned cabin by the sea. 
