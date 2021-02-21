@@ -101,10 +101,12 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	<!-- UUID://AB77888B-4E98-4875-A73E-8F3CE4365EB0// --><tw-storydata name="Monster" startnode="3" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="AB77888B-4E98-4875-A73E-8F3CE4365EB0" zoom="1" format="SugarCube" format-version="2.33.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body {font-family: 'Courier New', Courier, monospace; color: black;background-color: blanchedalmond;}
 button {cursor: pointer;color:rgb(4, 102, 102)}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">UIBar.stow();</script><tw-passagedata pid="1" name="GoodEnd" tags="" position="100,100" size="100,100">&lt;&lt;audio &quot;rain&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;waves&quot; volume 0.4 loop play&gt;&gt;
 You live out the rest of your days in peace and quiet. And eventually, you come to realize you were never the monster.
 &lt;&lt;timed 3000ms&gt;&gt;&lt;&lt;type 30ms&gt;&gt;Congradulations, you are //human.//&lt;&lt;/type&gt;&gt;&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryInit" tags="" position="225,100" size="100,100">&lt;&lt;cacheaudio &quot;rain&quot; &quot;../assets/Rain.mp3&quot; &quot;../assets/Rain(1).wav&quot;&gt;&gt;
 &lt;&lt;cacheaudio &quot;Gun&quot; &quot;../assets/Gun.wav&quot; &quot;../assets/&quot;&gt;&gt;
-&lt;&lt;cacheaudio &quot;waves&quot; &quot;../assets/Waves.wav&quot; &quot;../assets/Waves(1).mp3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Start" tags="" position="350,100" size="100,100">Congratulations, you are alive!
+&lt;&lt;cacheaudio &quot;waves&quot; &quot;../assets/Waves.wav&quot; &quot;../assets/Waves(1).mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;stab&quot; &quot;../assets/Stab.wav&quot; &quot;../assets/&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="Start" tags="" position="350,100" size="100,100">Congratulations, you are alive!
 Well, alive and cold, given how you are in just a hospital gown at the moment.
 You look around the room you are in, but it is difficult because it is surprisingly dark.
 Or so you hope.[[After all, you could be blind.|blind]]</tw-passagedata><tw-passagedata pid="4" name="blind" tags="" position="475,100" size="100,100">As you contemplate this, a lantern is lit to your right and in the warm, flickering light, you see a man 
@@ -127,10 +129,11 @@ Before he puts you under anestesia in order to terminate you, he sighs and speak
 &lt;&lt;next 3000ms&gt;&gt;As the scientist puts you under anestesia, he talks to you with disappointment clear in his voice.
 &lt;&lt;next 2000ms&gt;&gt;&quot;I had such high hopes for you &lt;&lt;print $name&gt;&gt;. Oh well, I can fix you and you&#39;ll come back the //right way.//&quot;
 &lt;&lt;next 1000ms&gt;&gt;[[Try again?|punch]] &lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="badend4" tags="" position="1225,100" size="100,100">&lt;&lt;audio &quot;rain&quot; stop&gt;&gt;
+&lt;&lt;audio &quot;waves&quot; volume 0.3 loop play&gt;&gt;
 You live for a few years in your seaside cabin. It&#39;s a peaceful life.
 But one day, there is a knock on your door.
-You open it and find the scientist before you. Before you can react, you are shot.
-&lt;&lt;timed 3000ms transition&gt;&gt; Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words 
+You open it and find the scientist before you. Before you can react, &lt;&lt;timed 3000ms transition&gt;&gt; you are shot. &lt;&lt;audio &quot;Gun&quot; volume .50 play&gt;&gt;
+&lt;&lt;next 2000ms&gt;&gt;Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words 
 &lt;&lt;next 2000ms&gt;&gt;&lt;&lt;type 30ms&gt;&gt;&quot;I had to. You were a monster.&quot;&lt;&lt;/type&gt;&gt;
 &lt;&lt;next 2000ms&gt;&gt;[[Try again?|run]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="man" tags="" position="100,225" size="100,100">He nods appreciatively and writes it down before he contines on.
 &quot;Very good. Now, who do you find attractive, men or women?&quot; 

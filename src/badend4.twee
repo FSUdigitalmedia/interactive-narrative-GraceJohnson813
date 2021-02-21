@@ -1,8 +1,9 @@
 :: badend4
 <<audio "rain" stop>>
+<<audio "waves" volume 0.3 loop play>>
 You live for a few years in your seaside cabin. It's a peaceful life.
 But one day, there is a knock on your door.
-You open it and find the scientist before you. Before you can react, you are shot.
-<<timed 3000ms transition>> Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words 
+You open it and find the scientist before you. Before you can react, <<timed 3000ms transition>> you are shot. <<audio "Gun" volume .50 play>>
+<<next 2000ms>>Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words 
 <<next 2000ms>><<type 30ms>>"I had to. You were a monster."<</type>>
 <<next 2000ms>>[[Try again?|run]]<</timed>>
