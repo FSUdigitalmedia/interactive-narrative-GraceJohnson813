@@ -99,13 +99,14 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<!-- UUID://AB77888B-4E98-4875-A73E-8F3CE4365EB0// --><tw-storydata name="Monster" startnode="2" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="AB77888B-4E98-4875-A73E-8F3CE4365EB0" zoom="1" format="SugarCube" format-version="2.33.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="GoodEnd" tags="" position="100,100" size="100,100">You live out the rest of your days in peace and quiet. And eventually, you come to realize you were never the monster.
-&lt;&lt;timed 3000ms&gt;&gt;Congradulations, you are human.&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">Congratulations, you are alive!
+&lt;&lt;timed 3000ms&gt;&gt;Congradulations, you are //human.//&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">Congratulations, you are alive!
 Well, alive and cold, given how you are in just a hospital gown at the moment.
 You look around the room you are in, but it is difficult because it is surprisingly dark.
 Or so you hope.[[After all, you could be blind.|blind]]</tw-passagedata><tw-passagedata pid="3" name="blind" tags="" position="350,100" size="100,100">As you contemplate this, a lantern is lit to your right and in the warm, flickering light, you see a man 
 in a lab coat. He seems proud and happy as he [[speaks.|speak]]</tw-passagedata><tw-passagedata pid="4" name="speak" tags="" position="475,100" size="100,100">“It worked! I can’t believe it worked!” He seems to ignore you for a moment before he speaks to you directly.
 “What is your name?”
- &lt;&lt;textbox &quot;$name&quot; &quot;&quot; &quot;questions&quot; autofocus&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="attack" tags="" position="600,100" size="100,100">You grab the scapel and spring into action. The scientist does put up a good fight but you bury the scapel deep into his neck.
+ &lt;&lt;textbox &quot;$name&quot; &quot;&quot; &quot;questions&quot; autofocus&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="attack" tags="" position="600,100" size="100,100">You grab the scapel and spring into action. 
+The scientist does put up a good fight but you bury the scapel deep into his neck.
 
 &lt;&lt;timed 3000ms transition&gt;&gt; Blood stains your hands and he gruggles before slumping to the ground.
 &lt;&lt;next 2000ms&gt;&gt;He is dead.
@@ -132,7 +133,7 @@ He sighs,&quot;I suppose it stands to reason that there would be a defect.&quot;
 
 Do you take offense to this?
 [[Yes|rude]]   [[No|sub]]</tw-passagedata><tw-passagedata pid="12" name="ladies1" tags="" position="225,225" size="100,100">You lie and say you find women attractive. The scientist seems to know this and he scowls.
-&quot;Do not lie to me. I created you and i can just as easily terminate you.&quot;
+&quot;//Do not lie to me.// I created you and i can just as easily terminate you.&quot;
 You feel a flicker of fear and [[Tell the truth|guys1]]</tw-passagedata><tw-passagedata pid="13" name="questions" tags="" position="350,225" size="100,100">&quot; &lt;&lt;print $name&gt;&gt;, very well, I shall call you that then.&quot; The man said with a nod as he gets a notebook from a nearby table and begins to write down the things you say.
 &quot;So, &lt;&lt;print $name&gt;&gt;, do you know what you are? Medically speaking of course.&quot;
  
@@ -150,16 +151,17 @@ You exit the lab and enter a hallway where the lights feel a bit too bright. Eve
 There is no one else around, [[strangely.|stab]]</tw-passagedata><tw-passagedata pid="17" name="unarmed" tags="" position="850,225" size="100,100">You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
 You enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
 There is no one else around, [[strangely.|punch]]</tw-passagedata><tw-passagedata pid="18" name="stab" tags="" position="975,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
-He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
+He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful //monster!// I told you to stay in the lab!&quot;
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
 Quick! Use that scapel!
 [[Stab Him!|attack]]   [[I can&#39;t kill him!|badend2]]</tw-passagedata><tw-passagedata pid="19" name="punch" tags="" position="1100,225" size="100,100">You race through the hallway and round a corner, only to run right into the scientist. 
-He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful monster! I told you to stay in the lab!&quot;
+He glares angerily and grabs your arm in a brusing hold. &quot;You ungrateful //monster!// I told you to stay in the lab!&quot;
 He begins to drag you back to the lab as he continues,&quot;You would be better off terminated and that&#39;s exactly what I am going to do!&quot;
 
 That doesn&#39;t sound good! Quick, You have to get away!
-[[Maybe I can reason with him!|badend3]]  [[You don&#39;t have to tell me twice|escape]]</tw-passagedata><tw-passagedata pid="20" name="escape" tags="" position="1225,225" size="100,100">You successfully squirm out of the scientist&#39;s hold and run for the door you can see. You burst out of the building and into the [[woods1]]!</tw-passagedata><tw-passagedata pid="21" name="sub" tags="" position="100,350" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
+[[Maybe I can reason with him!|badend3]]  [[You don&#39;t have to tell me twice!|escape]]</tw-passagedata><tw-passagedata pid="20" name="escape" tags="" position="1225,225" size="100,100">You successfully squirm out of the scientist&#39;s hold and run for the door you can see. 
+You burst out of the building and into the [[woods|woods1]]!</tw-passagedata><tw-passagedata pid="21" name="sub" tags="" position="100,350" size="100,100">You choose to stay quiet. After all, the scientist likely knows best.
 He continues to speak,&quot;I suppose I may be able to fix you. It will require another surgery. Obviously something is wrong with your brain.&quot;
 He begins to head to the door,&quot;I shall speak with my associates. You are to say here.&quot;
 
@@ -167,7 +169,7 @@ Well, Will you stay put?
 [[Yes|badend1]] [[Absolutely Not|run]]</tw-passagedata><tw-passagedata pid="22" name="woman" tags="" position="225,350" size="100,100">He nods appreciatively and writes it down before he contines on.
 &quot;Very good. Now, who do you find attractive, men or women?&quot;
 &quot;[[I like men|guys]]&quot;  &quot;[[I like women|ladies]]&quot;</tw-passagedata><tw-passagedata pid="23" name="guys" tags="" position="350,350" size="100,100">You lie and say you find men attractive. The scientist seems to know this and he scowls.
-&quot;Do not lie to me. I created you and I can just as easily terminate you.&quot;
+&quot;//Do not lie to me.// I created you and I can just as easily terminate you.&quot;
 You feel a flicker of fear and [[Tell the truth|ladies]]</tw-passagedata><tw-passagedata pid="24" name="ladies" tags="" position="475,350" size="100,100">You tell the truth and say you find women attractive. The scientist seems disappointed.
 He sighs,&quot;I suppose it stands to reason that there would be a defect.&quot;
 
@@ -177,7 +179,7 @@ Do you take offense to this?
  When dawn breaks, you find yourself on a beach with a quiet, abandoned cabin.
  [[This will be your home|GoodEnd]]</tw-passagedata><tw-passagedata pid="26" name="woods1" tags="" position="725,350" size="100,100">You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
 &lt;&lt;cacheaudio &quot;rain&quot; &quot;191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3&quot;&gt;&gt;
-&lt;&lt;audio &quot;rain&quot; loop play&gt;&gt;
+&lt;&lt;audio &quot;rain&quot; volume 0.50 loop play&gt;&gt;
  You keep running through the woods despite the rain and gradually, the shouts from the scientist grow fainter and fainter.
  As dawn approaches, you find a seculded and abandoned cabin by the sea. 
  [[This will make a good home.|badend4]]</tw-passagedata></tw-storydata>
