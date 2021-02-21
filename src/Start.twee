@@ -5,7 +5,10 @@
     "format-version": "2.33.4"
 }
 :: StoryTitle
-@@color:white; Monster @@
+Monster
+
+:: UserScript[script]
+UIBar.stow();
 
 :: Start
 Congratulations, you are alive!
