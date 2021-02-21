@@ -13,3 +13,25 @@ There is no one else around, [[strangely.|stab]]
 You decide that it would be better to forget the scapel and just leave as soon as you can. You begin to run and exit the lab. 
 You enter a hallway where the lights feel a bit too bright. Even though you are blinded for a moment you keep running. 
 There is no one else around, [[strangely.|punch]]
+
+:: stab
+You race through the hallway and round a corner, only to run right into the scientist. 
+He glares angerily and grabs your arm in a brusing hold. "You ungrateful monster! I told you to stay in the lab!"
+He begins to drag you back to the lab as he continues,"You would be better off terminated and that's exactly what I am going to do!"
+
+Quick! You have 10 seconds to use that scapel!
+<<if time() gt 10000>> <<goto "attack">>
+<<else>> <<goto "badend2">> <</if>>
+[[Stab Him!|attack]]
+
+:: punch
+You race through the hallway and round a corner, only to run right into the scientist. 
+He glares angerily and grabs your arm in a brusing hold. "You ungrateful monster! I told you to stay in the lab!"
+He begins to drag you back to the lab as he continues,"You would be better off terminated and that's exactly what I am going to do!"
+
+That doesn't sound good! Quick, You have 10 seconds to get away!
+<<if time() gt 10000>> <<goto "escape">>
+<<else>> <<goto "badend3">> <</if>>
+
+:: escape
+You successfully squirm out of the scientist's hold and run for the door you can see. You burst out of the building and into the [[woods1]]!
