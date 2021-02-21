@@ -180,7 +180,7 @@ Do you take offense to this?
  You keep running through the woods despite the rain. No one calls for you to stop and you feel adrenaline pump through your system.
  When dawn breaks, you find yourself on a beach with a quiet, abandoned cabin.
  [[This will be your home|GoodEnd]]</tw-passagedata><tw-passagedata pid="26" name="woods1" tags="" position="725,350" size="100,100">You run into the thicket of woods before you. Rain is comming down in droves and wind whips your hair into an unmanagable tangle.
-&lt;&lt;cacheaudio &quot;rain&quot; &quot;assets/191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3&quot;&gt;&gt;
+&lt;&lt;cacheaudio &quot;rain&quot; &quot;../assets/191276__0alexis0__thunderstorm-and-rain-in-the-countryside.mp3&quot;&gt;&gt;
 &lt;&lt;audio &quot;rain&quot; volume 0.50 loop play&gt;&gt;
  You keep running through the woods despite the rain and gradually, the shouts from the scientist grow fainter and fainter.
  As dawn approaches, you find a seculded and abandoned cabin by the sea. 
