@@ -5,7 +5,7 @@
     "format-version": "2.33.4"
 }
 :: StoryTitle
-@@color:white;Monster@@
+@@color:white; Monster @@
 
 :: Start
 Congratulations, you are alive!
