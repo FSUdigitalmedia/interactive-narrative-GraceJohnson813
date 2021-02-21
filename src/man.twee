@@ -1,14 +1,14 @@
 :: man
 He nods appreciatively and writes it down before he contines on.
-"Very good. Now, who do you find attractive, [[men|guys1]] or [[woman|ladies1]] ?" 
-[[I like men|guys1]]  [[I like women|ladies1]]
+"Very good. Now, who do you find attractive, men or women?" 
+"[[I like men|guys1]]"  "[[I like women|ladies1]]"
 
 :: guys1
 You tell the truth and say you find men attractive. The scientist seems disappointed.
 He sighs,"I suppose it stands to reason that there would be a defect."
 
 Do you take offense to this?
-[[Yes|rude]] [[No|sub]]
+[[Yes|rude]]   [[No|sub]]
 
 :: ladies1
 You lie and say you find women attractive. The scientist seems to know this and he scowls.

@@ -2,6 +2,6 @@
 You live for a few years in your seaside cabin. It's a peaceful life.
 But one day, there is a knock on your door.
 You open it and find the scientist before you. Before you can react, you are shot.
-Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words
-"I had to. You were a monster."
+<<timed 3000ms transition>> Your body crumbles to the floor and before you sucumb to the blood loss, you hear the words 
+<<next 2000ms>>"I had to. You were a monster."<</timed>>
 [[Try again?|run]]
