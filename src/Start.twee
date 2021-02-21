@@ -4,6 +4,8 @@
     "format": "SugarCube",
     "format-version": "2.33.4"
 }
+:: StoryInit
+<<cacheaudio "rain" "../assets/Thunder-Mike_Koenig-315681025 (1) (1)">>
 :: StoryTitle
 Monster
 
