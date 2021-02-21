@@ -5,7 +5,7 @@
     "format-version": "2.33.4"
 }
 :: StoryInit
-<<cacheaudio "rain" "../assets/Thunder-Mike_Koenig-315681025 (1) (1)">>
+<<cacheaudio "rain" "../assets/Rain.mp3">>
 :: StoryTitle
 Monster
 
