@@ -1,7 +1,7 @@
 :: attack
 You grab the scapel and spring into action. 
 The scientist does put up a good fight
-<<timed 3000ms transition>> but you bury the scapel deep into his neck.<<audio "stab" play>>
+<<timed 3000ms transition>> but you bury the scapel deep into his neck.<<audio "stab" volume 0.40 play>>
 
 <<next 3000ms>> Blood stains your hands and he gruggles before slumping to the ground.
 <<next 2000ms>>He is dead.
